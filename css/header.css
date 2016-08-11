@@ -1,0 +1,60 @@
+header {
+	width: 100%;
+	height: 50px;
+	margin: auto;
+	height: 55px;
+}
+a{
+	color: #000;
+}
+.header {
+	width: 1000px;
+	margin: auto;
+	
+}
+
+.header img {
+	float: left;
+	margin-top: 10px;
+}
+
+header nav {
+	float: right;
+	text-align: center;
+}
+
+nav ul li {
+	height: 75px;
+	width: 120px;
+	float: left;
+	line-height: 75px;
+	font-size: 16px;
+}
+
+nav ul li.current {
+	background: #48A1D4;
+	color: #fff;
+}
+
+nav ul li:hover {
+	background: #48A1D4;
+	color: #fff;
+	transition: all .5s;
+	-webkit-transition: all .5s;
+	cursor: pointer;
+}
+.fixed {
+	height: 65px;
+	position: fixed;
+	top: 0;
+	left: 0px;
+	right: 0px;
+	left: 0;
+	background: #f6f4f4;
+	text-align: center;
+	z-index: 999;
+	padding-bottom: 10px;
+}
+.clear{
+	clear: both;
+}

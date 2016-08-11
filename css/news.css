@@ -1,0 +1,72 @@
+.banner{
+	width: 100%;
+	height: 360px;
+  background: url(../img/party/bg_party.png) no-repeat scroll center center;
+	background-size:cover;
+	text-align: center;
+	margin-top: 20px;
+	color: #fff;
+}
+.banner h1{
+	font-size: 40px;
+}
+.banner h2{
+	font-size: 25px;
+}
+.banner .title{
+	position: relative;
+	top:40%;
+}
+.container{
+	margin-top: 100px;
+	text-align: center;
+}
+.container .left{
+	float: left;
+	margin: 35px;
+}
+.container h1{
+	font-size: 20px;
+}
+.container h1 span{
+	float: right;
+	margin-right: 30px;
+}
+.container h1 span img{
+	width:20px;
+	height: 20px;
+	position: relative;
+	right:5px;
+	top:3px;
+}
+.list:first-child{
+	margin-top: -20px;
+}
+.list{
+	width:900px;
+	height:320px;
+	margin: auto;
+	margin-top: 70px;
+	background: #48A1D4;
+	color:#fff;
+}
+.content{
+	text-align: left;
+	position: relative;
+	top:30px;
+}
+
+.content p{
+	margin-right: 20px;
+	text-indent: 2em;
+	line-height: 40px;
+	margin-top: 30px;
+}
+.content a{
+	border:none;
+	border-radius: 10px;
+	color: #fff;
+	padding: 5px;
+	float: right;
+	margin:10px 30px 0 0;
+}
